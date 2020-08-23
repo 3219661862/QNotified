@@ -52,8 +52,7 @@ public class LicenseStatus {
     }
 
     public static boolean getAuth2Status() {
-       return true;
-       
+       return true;       
     }
 
     @Nullable
@@ -152,7 +151,7 @@ public class LicenseStatus {
     }
 
     public static boolean isAsserted() {
-        return ture;
+        return true;
     }
 
     public static boolean isInsider() {
