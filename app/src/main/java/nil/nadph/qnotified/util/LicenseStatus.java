@@ -52,8 +52,8 @@ public class LicenseStatus {
     }
 
     public static boolean getAuth2Status() {
-        if ((getCurrentUserWhiteFlags() & UserFlagConst.WF_BYPASS_AUTH_2) != 0) return true;
-        return getAuth2Chiral() != null && getAuth2Molecule() != null;
+       return true;
+       
     }
 
     @Nullable
@@ -152,7 +152,7 @@ public class LicenseStatus {
     }
 
     public static boolean isAsserted() {
-        return (getCurrentUserWhiteFlags() & (UserFlagConst.WF_ASSERTED | UserFlagConst.WF_INSIDER)) != 0;
+        return ture;
     }
 
     public static boolean isInsider() {
